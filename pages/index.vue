@@ -1,9 +1,11 @@
 <template>
-  <Tutorial/>
+  <home-component />
 </template>
 
 <script>
+import HomeComponent from "~/components/HomeComponent.vue";
 export default {
-  name: 'IndexPage'
-}
+  components: { HomeComponent },
+  name: "IndexPage",
+};
 </script>
