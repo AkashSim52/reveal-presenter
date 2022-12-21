@@ -27,10 +27,9 @@
 
 <script>
 import Reveal from "reveal.js";
-import "reveal.js/dist/reveal.css";
-import "reveal.js/dist/theme/black.css";
 import "reveal.js/plugin/highlight/monokai.css";
 import Markdown from "reveal.js/plugin/markdown/markdown.js";
+import Highlight from "reveal.js/plugin/highlight/highlight";
 export default {
   mounted() {
     Reveal.initialize({
@@ -44,4 +43,14 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  height: 90vh;
+}
+</style>
